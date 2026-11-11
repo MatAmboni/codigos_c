@@ -31,10 +31,10 @@
    //    stdio.h
 
 #include <stdio.h>
+#include <stdlib.h>
+#include <time.h>
 
-int random0();
-int random1();
-int random2();
+int randomNumber(int min, int max);
 
 void dicas(int numeroescolhido, int numerosorteado, int tentativa);
 
