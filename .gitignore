@@ -1,0 +1,41 @@
+# Build outputs
+out/
+*.o
+*.obj
+*.exe
+*.out
+*.a
+*.lib
+*.dll
+*.so
+*.dylib
+
+# MPLAB X / XC8
+**/build/
+**/dist/
+**/debug/
+**/nbproject/private/
+*.hex
+*.elf
+*.map
+*.lst
+*.cof
+*.d
+*.pre
+*.p1
+*.cmf
+*.hxl
+*.sdb
+*.sym
+
+# IDE / OS
+.vs/
+.vscode/
+*.swp
+*~
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Generated data
+movies.txt
